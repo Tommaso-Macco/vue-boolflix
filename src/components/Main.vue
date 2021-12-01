@@ -1,12 +1,14 @@
 <template>
-  <div>
-      MAIN
-      <FilmSelect
-        v-for="film, i in filmList"
-        :key="i"
-        :details="film"
-      />
-  </div>
+    <main>
+        <div>
+            MAIN
+            <FilmSelect
+                v-for="film, i in filmList"
+                :key="i"
+                :details="film"
+            />
+        </div>
+    </main>
 </template>
 
 <script>
@@ -44,5 +46,8 @@ export default {
 </script>
 
 <style lang="scss">
-
+    main {
+        min-height: calc(100vh - 100px);
+        background-color: grey;
+    }
 </style>
