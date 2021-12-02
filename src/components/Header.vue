@@ -1,7 +1,6 @@
 <template>
   <header>
       <h1>BOOLFLIX</h1>
-      <input type="text" placeholder="Inserci Il Titolo Di Un Film">
   </header>
 </template>
 
